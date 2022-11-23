@@ -1,0 +1,55 @@
+
+body{
+  font-family: "Monsterrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff; /* text color */
+}
+h1{
+  font-family: "Monsterrat-Black" ;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{   /*to allign tindog with " meet new and interesting dogs nearby"*/
+    padding: 0 0 4.5rem;
+}
+
+/*Navigation bar*/
+.navbar-brand{
+ font-family: "Ubuntu" ;
+  font-size : 2rem;
+  font-weight: 800;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: " Monsterrat-Light";
+}
+/*download buttons*/
+.download{
+  margin: 5% 3% 5% 0;
+}
+
+/*image*/
+.image{
+  width: 60%;
+  margin-left: 100px;
+  transform: rotate(15deg);
+
+}
+.row1{
+  margin: 5% 20%;
+
+}
+.symbol1, .symbol2, .symbol3 {
+  color:#ef8172 ;
+}
