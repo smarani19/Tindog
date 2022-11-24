@@ -11,6 +11,10 @@ h1{
   font-weight: 900;
   line-height: 1.5;
 }
+h3{
+  font-family: "Monsterrat-Black";
+  font-weight: 900;
+}
 
 .container-fluid{
   padding: 3% 15%;
@@ -43,12 +47,18 @@ h1{
   width: 60%;
   margin-left: 100px;
   transform: rotate(15deg);
-
 }
-.row1{
-  margin: 5% 20%;
-
+.feattitle{
+  text-align: center;
+  padding: 5%;
 }
-.symbol1, .symbol2, .symbol3 {
+p{
+  color: #8f8f8f;
+}
+.symbol {
   color:#ef8172 ;
+  margin: 10px;
+}
+.symbol:hover{
+color: #ff4c68;
 }
