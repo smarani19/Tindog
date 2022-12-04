@@ -1,3 +1,4 @@
+
 body{
   font-family: "Monsterrat";
 }
@@ -9,6 +10,12 @@ h1{
   font-family: "Monsterrat-Black" ;
   font-size: 3.5rem;
   font-weight: 900;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Monsterrat-Bold" ;
+  font-size: 3rem;
+  font-weight: 400;
   line-height: 1.5;
 }
 h3{
@@ -47,7 +54,12 @@ h3{
   width: 60%;
   margin-left: 100px;
   transform: rotate(15deg);
+
 }
+#features{
+  margin: 5% 15%;
+}
+
 .feattitle{
   text-align: center;
   padding: 5%;
@@ -61,4 +73,44 @@ p{
 }
 .symbol:hover{
 color: #ff4c68;
+}
+
+#testimonials {
+/*this would apply for the entire testimonial section*/
+text-align: center;
+background-color: #ef8172; 
+color: #fff;
+}
+
+.carousel-item{
+  /*this would apply for the items in thee carousel except for the previous and ndext slide buttons*/
+  padding: 7% 15%;
+
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 20%;
+  margin: 30px;;
+}
+#press{
+  background-color:#ef8172 ;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.promotion{
+  width : 12%;
+  margin: 20px;
+  
+}
+
+/*the bootstrap 5 doc gave an extra box around the previous and next buttons, in order to remove it , the following code has been added */
+.slidebutton{  
+  background-color: #ef8172;
+  border:0;
+}
+#pricing{
+  padding: 100px; 
+  text-align: center;
 }
