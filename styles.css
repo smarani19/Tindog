@@ -114,6 +114,19 @@ color: #fff;
   padding: 100px; 
   text-align: center;
 }
+#cta{
+ 
+  text-align: center;
+    color: white;
+    background-color: #ff4c68;
+    padding: 7% 20% 5% ; 
+   }
+  
+   #footer{
+    padding:5%;
+    text-align: center;
+   
+   }
 @media (max-width: 1028px){ /*media queries is used for responsive wep page styling based on different devices*/
   .image{
     position: static;
